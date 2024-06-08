@@ -19,6 +19,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val todoViewModel = ViewModelProvider(this)[TodoViewModel::class.java]
+        //first
         setContent {
             JetPackpractTheme {
                 // A surface container using the 'background' color from the theme
